@@ -39,7 +39,6 @@ function Cart() {
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold mb-1">{food.name}</h3>
                   <p className="text-sm text-gray-500 mb-1">₹{price}</p>
-                  <p className="text-sm text-gray-700 mb-2">{food.description}</p>
                   <div className="flex gap-2">
                    
                     <button

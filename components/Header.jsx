@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
 function Header() {
   const cartItems = useSelector((store)=>store.cart.items);
   return (
-    <div className="dark:bg-gray-900 text-white">
+    <div className="bg-orange-500 text-white height-20 width-full">
       <nav className="flex justify-between items-center px-12 h-20">
         <Link to="/">
           <svg className="VXJlj" viewBox="0 0 61 61" height="49" width="49">
